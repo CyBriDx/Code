@@ -16,7 +16,7 @@ var threeSum = function(nums) {
                     right = right - 1
                 } else {
                     result.push([sorted[i], sorted[left], sorted[right]])
-                    while (left < right && sorted[left] === nums[left + 1]) left++;
+                    while (left < right && sorted[left] === sorted[left + 1]) left++;
                     while (left < right && sorted[right] == sorted[right-1]) right--;
                     left++;
                     right--
