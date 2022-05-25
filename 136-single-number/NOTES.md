@@ -1,0 +1,1 @@
+Used HashMap for the implementation, as there will be only one element which is appearing once we need not to return the first element.
